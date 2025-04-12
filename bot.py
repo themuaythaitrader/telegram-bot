@@ -14,7 +14,7 @@ def handle_message(message):
     text = message.text.lower()
 
     if "how does" in text:
-        bot.reply_to(message, "🤖 The EA monitors Heiken Ashi candles and key levels to auto-trade XAUUSD and forex pairs.")
+        bot.reply_to(message, "🤖 The EA monitors conditions on multiple timeframes as well as key levels to auto-trade XAUUSD.")
     elif "join" in text:
         bot.reply_to(message, "🚀 To join, you can use the affiliate link or pay £199. Full info at themuaythaibot.com.")
     elif "free" in text or "paid" in text:
